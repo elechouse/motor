@@ -33,7 +33,7 @@ typedef uint32_t u32;
 typedef int32_t  s32;
 #endif
 
-// #define MOTOR_V1
+//#define MOTOR_V1
 #define MOTOR_V2
 
 #ifdef MOTOR_V1
@@ -83,7 +83,7 @@ typedef int32_t  s32;
 
 #define MOTOR_CLK_PRESCALER 8
 #else
-
+ #error("Motor version undefined.");
 #endif
 
 
